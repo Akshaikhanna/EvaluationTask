@@ -17,7 +17,6 @@ function Calculator() {
     const birthDate = new Date(dateofbirth);
     const currentDate = new Date();
     const age = currentDate - birthDate;
-
     const ageYears = age / (365 * 24 * 60 * 60 * 1000);
     setAge(Math.floor(ageYears));
   };
