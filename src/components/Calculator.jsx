@@ -24,11 +24,11 @@ function Calculator() {
   return (
     <Container>
       <Grid container justifyContent="center" alignItems="center" spacing={1}>
-        <Grid item xs={12} sm={6} md={4} lg={3}>
-          <Card className="cardWithShadow">
+        <Grid item xs={12} sm={6} md={4} lg={3} >
+          <Card className="cardWithShadow" sx={{ width: "100%", maxWidth: 700, padding: 6 }}>
             <div className="Calculator">
-              <Typography variant="h5">Age Calculator</Typography>
-              <Typography variant="h6">Enter your Date of Birth: </Typography>
+              <Typography variant="h6" alignItems="center" color="blue">Age Calculator</Typography>
+              <Typography variant="h7">Enter your Date of Birth: </Typography>
               <TextField
                 type="date"
                 id="dob"
