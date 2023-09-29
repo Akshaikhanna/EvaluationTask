@@ -1,0 +1,8 @@
+.button {
+  margin-top: 2% !important;
+}
+
+.cardWithShadow {
+  margin-top: 70%;
+  box-shadow: 2px 2px 5px 2px #ccc !important;
+}
